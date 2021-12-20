@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+.circle{
+  height:calc(100vh-50px);
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  opacity:0.15 ;
+}
