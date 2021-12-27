@@ -9,7 +9,7 @@ const Intro=()=>{
           <Circle backgroundColor="#01c686" right="-45vh"/>  
           <div className={styles.card}>
               <h1 className={styles.title}>
-                  <span className={styles.brand}>AVICAD0</span> DIGITAL PRODUCT AGENCY
+                  <span className={styles.brand}>AV0CAD0</span> DIGITAL PRODUCT AGENCY
               </h1>
               <p className={styles.desc}>
                   Create live segments and target the right people for messages based on
@@ -20,8 +20,6 @@ const Intro=()=>{
           <div className={styles.card}>
               <Image 
               src='/img/Avocado.png'alt="" 
-              width="100%" 
-              height="100%" 
               layout="fill"
               objectFit="cover"></Image>
           </div>

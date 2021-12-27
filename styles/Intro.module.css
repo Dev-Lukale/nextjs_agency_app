@@ -1,8 +1,9 @@
 .container{
     width: 100%;
-    height:calc(100vh-50px);
+    height:calc(100vh - 50px);
     display: flex;
-     overflow: hidden;
+    overflow: hidden;
+    position: relative;
     
 }
 .card{
