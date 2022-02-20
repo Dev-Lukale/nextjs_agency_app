@@ -16,10 +16,12 @@
 }
 .linkTitle{
     text-decoration: underline;
+    cursor: pointer;
 }
 .link{
     display: flex;
     align-items: center;
+    cursor: pointer;
 } 
 .linkText{
     margin-right: 20px;
