@@ -23,3 +23,8 @@ a {
   opacity:0.15 ;
   margin: auto;
 }
+@media screen and (max-width: 480px) {
+  .circle{
+    display: none;
+  }
+}

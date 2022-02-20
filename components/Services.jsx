@@ -11,7 +11,8 @@ const Services = ({services})=>{
                  {services.map(service=>(
                      
                      <Link passHref key={service.id} href={`/products/${service.name}`}>
-                         <div className={styles.service}>
+                        <>
+                        <div className={styles.service}>
                              <div className={styles.desc}>{service.desc}</div>
                             <span className={styles.cat}>{service.title}</span>
                              <div className={styles.media}>
@@ -22,12 +23,14 @@ const Services = ({services})=>{
                                     alt="" 
                                     width="100%" 
                                     height="100%" 
-                                    layout="responsive"
+                                    layout="fill"
                                     objectFit="cover"
                                     ></Image>
                                 ) }
                              </div>
                          </div>
+
+                        </>
                      </Link>
                  ))}
             </div>
